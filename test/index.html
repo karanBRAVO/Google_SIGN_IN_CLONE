@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+ 
+<body>
+    <div class="mainContainer">
+        <div class="innerCont">
+            <div class="inputDiv">
+                <label for="inputField" id="inputLabel1">Username</label>
+                <input type="text" name="text" id="inputField1" placeholder="Username" autocomplete="off">
+
+                <label for="inputField" id="inputLabel2" class="display-none">Your email address</label>
+                <input type="text" name="text" id="inputField2" class="display-none" placeholder="Your email address" autocomplete="off">
+            </div>
+            <div class="note" draggable="false">
+                <p id="msg1" class="msg" style="user-select: none;">You can use letters, numbers & periods</p>
+                <p id="msg2" class="msg display-none" style="user-select: none;">You'll need to confirm that this email belongs to you.</p>
+            </div>
+            <div class="useCurrentCont">
+                <div class="innerContent">
+                    <p id="currentEmail">Use my current email address instead</p>
+                    <p id="newEmail" class="display-none">Create a new Gmail address instead</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

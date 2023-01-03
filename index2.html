@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ico/google.ico" type="image/x-icon">
+    <title>Create your Google Account</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/index2.js"></script>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="formContainer width-55pert">
+            <div class="imageContainer leftAligned">
+                <img src="google.svg" alt="Google" class="pad" draggable="false">
+            </div>
+            <div class="heading leftJustify">
+                <div class="mainHeading">
+                    <p id="topmainHeading">Create your Google Account</p>
+                </div>
+            </div>
+            <div class="formDiv">
+                <form>
+                    <div class="nameCont width100-pert">
+                        <div class="nameInpCont width-100pert">
+                            <label for="firstName" class="labelStyling" id="LabelForFirstName">First name</label>
+                            <input type="text" name="name" class="InputFields width-88pert margin-r" id="firstName"
+                                placeholder="First name" autocomplete="off">
+                        </div>
+                        <div class="nameInpCont width-100pert">
+                            <label for="lastName" class="labelStyling" id="LabelForLastName">Last name</label>
+                            <input type="text" name="name" class="InputFields width-88pert" id="lastName"
+                                placeholder="Last name" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="mailContainer">
+                        <div class="inpEmail">
+                            <label for="username" class="labelStyling" id="LabelForUserName">Username</label>
+                            <div class="user_new_email_box">
+                                <input type="email" name="email" class="width-94pert" id="username"
+                                    placeholder="Username" autocomplete="off">
+                                <div class="tagImgCont">
+                                    <img src="tag.svg" alt="@gmail.com" id="tagImg" draggable="false">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Note">
+                            <span>You can use letters, numbers & periods</span>
+                        </div>
+                    </div>
+                    <div class="changeAddress">
+                        <div class="linkCont">
+                            <span>Use my current email address instead</span>
+                        </div>
+                    </div>
+                    <div class="passwordCont">
+                        <div class="password">
+                            <label for="newPassword" class="labelStyling" id="LabelForNewPass">Password</label>
+                            <input type="password" name="pass" class="InputFields width-88pert" id="newPassword"
+                                autocomplete="off" placeholder="Password">
+                        </div>
+                        <div class="confirmPassword">
+                            <label for="confirmNewPassword" class="labelStyling"
+                                id="LabelForConfirmNewPass">Confirm</label>
+                            <input type="password" name="conpass" class="InputFields width-88pert"
+                                id="confirmNewPassword" autocomplete="off" placeholder="Confirm">
+                        </div>
+                    </div>
+                    <div class="Note">
+                        <p>Use 8 or more characters with a mix of letters, numbers & symbols</p>
+                    </div>
+                    <div class="showPasswordCont">
+                        <div class="checkBoxShow">
+                            <input type="checkbox" name="show_pass" id="showNewPassword" class="curpoint"
+                                onclick="showNewPass()">
+                        </div>
+                        <label for="showNewPassword" class="curpoint">Show Password</label>
+                    </div>
+                    <div class="lastCont" style="margin-top: 35px;">
+                        <div class="createAccountDiv">
+                            <div class="innerdiv">
+                                <a href="index.html" style="font-size: 1em;">Sign in
+                                    instead</a>
+                            </div>
+                        </div>
+                        <div class="buttonCont">
+                            <div class="innerbtnDiv">
+                                <button type="reset">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="lastRow" id="otherLinksANDchlang" style="width: 64.5%">
+            <div class="options">
+                <select name="lang" id="languages">
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                </select>
+            </div>
+            <div class="links">
+                <div class="help">
+                    <a
+                        href="https://support.google.com/accounts?hl=en&visit_id=638023782777744566-1120867892&rd=2&p=account_iph#topic=3382296">Help</a>
+                </div>
+                <div class="privacy">
+                    <a href="https://policies.google.com/privacy?gl=IN&hl=en">Privacy</a>
+                </div>
+                <div class="terms">
+                    <a href="https://policies.google.com/terms?gl=IN&hl=en">Terms</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

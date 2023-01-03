@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho&display=swap');
+/* font-family: 'Noto Sans Wancho', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+/* font-family: 'Noto Sans JP', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.quote {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.quote p {
+    color: #1a73e8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5em;
+    text-shadow: 2px 3px 5px #5f6368;
+}
+
+.mainContainer {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.formContainer {
+    background-color: white;
+    width: 50%;
+    border: 1px solid rgb(218 220 224);
+    border-radius: 8px;
+    margin: 1px;
+    padding: 65px 27px;
+}
+
+.imageContainer {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.imageContainer img {
+    width: 20%;
+}
+
+.heading {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.mainHeading {
+    background-color: white;
+    margin: 5px;
+    padding: 7px 5px;
+}
+
+.mainHeading p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.69em;
+}
+
+.subHeading {
+    background-color: white;
+    margin: 1px;
+    padding: 0px 5px;
+    border: 1px solid white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.subHeading img {
+    width: 20px;
+    display: none;
+}
+
+.subHeading p {
+    font-family: 'Noto Sans Wancho', sans-serif;
+    font-size: 1.1em;
+    padding: 3px;
+    color: black;
+}
+
+.formDiv {
+    background-color: white;
+    padding: 0px 5px;
+    padding-top: 20px;
+    margin: 0px 2px;
+    margin-top: 10px;
+}
+
+.inp {
+    background-color: white;
+    width: 100%;
+    padding: 0px 3px;
+    margin: 0 3px;
+}
+
+.inp input {
+    width: 91%;
+    border: 2px solid #dadce0;
+    border-radius: 4px;
+    padding: 15px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.inp label {
+    background-color: white;
+    color: #1a73e8;
+    font-size: 0.8em;
+    padding: 1px 5.5px;
+    font-family: 'Poppins', sans-serif;
+    width: fit-content;
+    position: relative;
+    top: 10.1px;
+    left: 6.5px;
+    visibility: hidden;
+}
+
+#LabelForPassword {
+    display: none;
+}
+
+#input {
+    display: block;
+}
+
+#inputPass {
+    display: none;
+}
+
+.inp input:focus {
+    outline: #1a73e9;
+    border: 2px solid #1a73e9;
+}
+
+.messageCont {
+    padding: 0 7px;
+}
+
+#msg {
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+    display: none;
+}
+
+#showPasswordCont {
+    background-color: white;
+    color: #202124;
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.checkBox {
+    padding: 10px;
+    width: fit-content;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.checkBox:hover {
+    background-color: #eee;
+    border-radius: 100px;
+}
+
+.curpoint {
+    cursor: pointer;
+}
+
+.forgotLinks {
+    background-color: white;
+    padding: 1px 7px;
+}
+
+.forgotLinks a {
+    color: #1a73e9;
+    font-family: 'Roboto', sans-serif;
+}
+
+#createAccount {
+    display: block;
+}
+
+#forgotPass {
+    display: none;
+}
+
+.para {
+    background-color: white;
+    padding: 15px 7px;
+    margin: 25px 0px;
+}
+
+.para p {
+    color: #5f6368;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+}
+
+.para a {
+    color: #1a73e9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lastCont {
+    background-color: white;
+    margin: 5px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.createAccountDiv {
+    width: 50%;
+}
+
+.innerdiv {
+    padding: 8px 6px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    width: fit-content;
+}
+
+.innerdiv:hover {
+    background-color: #1a74e90e;
+}
+
+.innerdiv:hover a {
+    color: #1457ae;
+}
+
+.innerdiv a {
+    color: var(--gm-colortextbutton-ink-color, #1a73e8);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 0.85em;
+}
+
+.buttonCont {
+    width: 50%;
+    background-color: white;
+    text-align: end;
+}
+
+.innerbtnDiv button {
+    width: 39%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #1a73e9;
+    border: 2px solid #1a73e9;
+    border-radius: 3px;
+    padding: 10px 7px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.innerbtnDiv button:hover {
+    background-color: #1664cb;
+    box-shadow: 1px 2px 3px #5f636867;
+    border: 2px solid #1664cb;
+}
+
+.lastRow {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 60%;
+    margin: 6px 0;
+    padding: 5px 0px;
+}
+
+.options {
+    width: 50%;
+}
+
+.options select {
+    border: 2px solid white;
+    cursor: pointer;
+    outline: none;
+    color: #5f6368;
+    width: 77%;
+    padding: 15px;
+}
+
+.options select:focus {
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.links {
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    background-color: white;
+}
+
+.links a {
+    color: #5f6397;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 0.8em;
+    padding: 17px 15px;
+}
+
+.links a:focus {
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+#createAccountFormDiv {
+    display: none;
+}
+
+.leftAligned {
+    text-align: start;
+}
+
+.leftJustify {
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.pad {
+    padding: 5px;
+    margin: 5px;
+}
+
+.width-50pert {
+    width: 50%;
+}
+
+.width-55pert {
+    width: 55%;
+}
+
+.width-91pt5pert {
+    width: 91.5%;
+}
+
+.width-88pert {
+    width: 88%;
+}
+
+.width-94pert {
+    width: 94%;
+}
+
+.width-100pert {
+    width: 100%;
+}
+
+.margin-r {
+    margin-right: 6px;
+}
+
+.margin-t {
+    margin-top: 26.5px;
+}
+
+.nameCont {
+    background-color: white;
+    padding: 3px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.nameInpCont {
+    margin: 3px 0;
+    padding: 2px 0;
+}
+
+.InputFields {
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    padding: 8px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+    background-color: white;
+    transition: all 0.25s;
+    height: 22px;
+}
+
+.InputFields:focus {
+    outline: #1a73e8;
+    border: 1.78px solid #1a73e8;
+}
+
+.mailContainer {
+    width: 100%;
+    background-color: white;
+}
+
+.inpEmail {
+    width: 100%;
+    background-color: white;
+}
+
+.user_new_email_box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+
+.user_new_email_box #username {
+    height: 22px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    padding: 8px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+    background-color: white;
+    transition: all 0.25s;
+    border-right: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.user_new_email_box #username:focus {
+    outline: #1a73e8;
+    border: 1.78px solid #1a73e8;
+    border-right: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.tagImgCont {
+    margin-top: 4px;
+}
+
+.tagImgCont #tagImg {
+    width: 115px;
+    height: 38px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #dadce0;
+    border-left: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-right: 6.5px;
+    transition: all 0.2s;
+}
+
+.Note {
+    padding: 0px 7px;
+}
+
+.Note span {
+    color: #5f6368;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+}
+
+.changeAddress {
+    background-color: white;
+    margin: 5px -7px;
+    padding: 5px 0px;
+}
+
+.changeAddress .linkCont {
+    padding: 6px;
+    margin: 1px 0px;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.changeAddress .linkCont:hover {
+    background-color: #1a74e90e;
+}
+
+.changeAddress .linkCont span {
+    color: #257bed;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.changeAddress .linkCont:hover span {
+    color: #1457ae;
+}
+
+.passwordCont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 15.5px;
+    width: 100%;
+    background-color: white;
+}
+
+.Note p {
+    margin: 3px 0px;
+    padding: 3px 0px;
+    color: #5f6368;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+}
+
+.showPasswordCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin: 10px -7px;
+    padding: 1px 0;
+    background-color: white;
+}
+
+.passMargin-t {
+    margin-top: 11px;
+}
+
+.showPasswordCont label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+.checkBoxShow {
+    background-color: white;
+    margin-right: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.checkBoxShow:hover {
+    background-color: #eee;
+    border-radius: 100px;
+}
+
+.labelStyling {
+    color: #1a73e8;
+    background-color: white;
+    padding: 1px 5px;
+    width: fit-content;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    position: relative;
+    top: 10.1px;
+    left: 4.3px;
+    visibility: hidden;
+}

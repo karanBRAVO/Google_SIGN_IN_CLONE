@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.innerCont {
+    background-color: white;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px #dadce0;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.inputDiv {
+    background-color: white;
+    width: 100%;
+}
+
+.inputDiv label {
+    font-family: monospace;
+    font-size: 1em;
+    color: #1a73e8;
+    background-color: white;
+    padding: 1px 5px;
+    letter-spacing: 1.02px;
+    width: fit-content;
+    position: relative;
+    top: 7.59px;
+    left: 3.56px;
+    display: none;
+}
+
+.inputDiv input {
+    width: 50%;
+    border: 1px solid #dadce0;
+    border-radius: 3px;
+    height: 30px;
+    padding: 10px;
+    font-size: 1.3em;
+    font-family: monospace;
+    font-weight: 500;
+    letter-spacing: 1.09px;
+    background-color: white;
+    color: black;
+    transition: all 0.25s ease-out;
+}
+
+.inputDiv input:focus {
+    outline: #1a73e8;
+    border: 1.78px solid #1a73e8;
+}
+
+.note {
+    background-color: white;
+    width: 100%;
+}
+
+.note .msg {
+    background-color: white;
+    font-family: monospace;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    padding: 0.5px 5px;
+    color: grey;
+}
+
+.useCurrentCont {
+    background-color: white;
+    width: 100%;
+}
+
+.useCurrentCont .innerContent {
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 3px;
+    margin: 6px;
+    margin-left: -6px;
+    padding: 6px;
+}
+
+.useCurrentCont .innerContent:hover {
+    background-color: #1a73e811;
+}
+
+.useCurrentCont .innerContent p {
+    color: #1a73e8;
+    font-size: 1.12345em;
+    font-family: monospace;
+    font-weight: 600;
+    user-select: none;
+}
+
+.display-none {
+    display: none;
+}

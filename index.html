@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ico/google.ico" type="image/x-icon">
+    <title>Google Sign-In System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
+</head>
+ 
+<body>
+    <div class="quote" id="onSucces">
+        <a href="index.html">
+            <p>Hello World!</p>
+        </a>
+    </div>
+    <div class="mainContainer" id="mainContainer">
+        <div class="formContainer" id="signInFormDiv">
+            <div class="imageContainer">
+                <img src="google.svg" alt="Google" draggable="false">
+            </div>
+            <div class="heading">
+                <div class="mainHeading">
+                    <p id="topmainHeading">Sign in</p>
+                </div>
+                <div class="subHeading" id="subHeadCont">
+                    <a href="index.html"><img src="user.svg" alt="" id="userIcon"></a>
+                    <p id="topsubHeading">Use your Google Account</p>
+                    <a href="index.html"><img src="down-arrow.svg" alt="" id="downArrow"></a>
+                </div>
+            </div>
+            <div class="formDiv">
+                <form>
+                    <div class="inp">
+                        <label for="input" id="LabelForEmail_Phone">Email or phone</label>
+                        <input type="text" name="emailORphone" id="input" placeholder="Email or phone"
+                            autocomplete="off">
+                        <label for="inputPass" id="LabelForPassword">Password</label>
+                        <input type="password" name="pass" id="inputPass" placeholder="Enter your password"
+                            autocomplete="off">
+                    </div>
+                    <div class="messageCont">
+                        <span id="msg"></span>
+                    </div>
+                    <div id="showPasswordCont">
+                        <div class="checkBox">
+                            <input type="checkbox" name="show_pass" id="showPassword" class="curpoint"
+                                onclick="showPass()">
+                        </div>
+                        <label for="showPassword" class="curpoint">Show Password</label>
+                    </div>
+                    <div class="forgotLinks" id="forgotLinksDiv">
+                        <a href="#">Forgot email?</a>
+                    </div>
+                    <div class="para" id="innerLines">
+                        <p>Not your computer? Use Guest mode to sign in privately.</p>
+                        <a href="https://support.google.com/chrome/answer/6130773?hl=en">Learn more</a>
+                    </div>
+                    <div class="lastCont" id="lastContainer">
+                        <div class="createAccountDiv">
+                            <div class="innerdiv">
+                                <a href="index2.html" id="createAccount">Create account</a>
+                                <a href="#" id="forgotPass">Forgot password?</a>
+                            </div>
+                        </div>
+                        <div class="buttonCont">
+                            <div class="innerbtnDiv">
+                                <button type="reset" onclick="validate()">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="lastRow" id="otherLinksANDchlang">
+            <div class="options">
+                <select name="lang" id="languages">
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                    <option value="English (United States)">English (United States)</option>
+                </select>
+            </div>
+            <div class="links">
+                <div class="help">
+                    <a
+                        href="https://support.google.com/accounts?hl=en&visit_id=638023782777744566-1120867892&rd=2&p=account_iph#topic=3382296">Help</a>
+                </div>
+                <div class="privacy">
+                    <a href="https://policies.google.com/privacy?gl=IN&hl=en">Privacy</a>
+                </div>
+                <div class="terms">
+                    <a href="https://policies.google.com/terms?gl=IN&hl=en">Terms</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
