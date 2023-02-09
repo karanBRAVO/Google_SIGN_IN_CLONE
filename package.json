@@ -1,0 +1,23 @@
+{
+  "name": "signin_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karanBRAVO/Google_SIGN_IN_CLONE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karanBRAVO/Google_SIGN_IN_CLONE/issues"
+  },
+  "homepage": "https://github.com/karanBRAVO/Google_SIGN_IN_CLONE#readme"
+}
